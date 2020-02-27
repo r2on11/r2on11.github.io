@@ -3,7 +3,7 @@ $('.nav-link').on('click',function() {
   });
 
 $(".div1back").on("mouseenter", function(){
-    $(".div1back").text("Click to redirect").addClass("prova")}); 
+    $(".div1back").html('<span class="header">Click to redirect</span> ').addClass("prova")}); 
 $(".div1back").on("mouseleave", function(){ 
     $(".div1back").text("").removeClass("prova")}); 
 
@@ -12,12 +12,13 @@ $(".div1back").on("mouseleave", function(){
             var someId = $(this).attr("id");
             window.open('imggallery/imgindex.html#'+someId);
               });})
+
            
 
 
 
 $(".div2back").on("mouseenter", function(){ 
-    $(".div2back").text("Click to redirect").addClass("prova")});
+    $(".div2back").html('<span class="header">Click to redirect</span> ').addClass("prova")});
 $(".div2back").on("mouseleave", function(){
     $(".div2back").text("").removeClass("prova")}); 
 
@@ -30,7 +31,7 @@ $(".div2back").on("mouseleave", function(){
 
 
 $(".div3back").on("mouseenter", function(){ 
-    $(".div3back").text("Click to redirect").addClass("prova")});
+    $(".div3back").html('<span class="header">Click to redirect</span> ').addClass("prova")});
 $(".div3back").on("mouseleave", function(){
     $(".div3back").text("").removeClass("prova")}); 
 
