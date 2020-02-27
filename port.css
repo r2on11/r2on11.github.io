@@ -1,0 +1,224 @@
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   position: relative;
+   background-color: rgb(252, 244, 244);
+
+  }
+html {
+    scroll-behavior: smooth;
+
+  }
+.row{
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.navbar {
+    background: transparent;
+    background-color: transparent;
+    color: white ;
+    font-size: 1.4rem !important;
+    font-weight: bolder;
+}
+.navscr
+{
+    background-color: rgb(32, 59, 59);
+    color: white ;
+    font-size: 1.4rem !important;
+    font-weight: bolder;
+
+}
+.navbar-brand  {
+    color: white;
+
+}
+.navbar  .navbar-brand:hover { 
+
+
+    color:white !important;
+
+}
+.nav-link {
+    color:white !important;
+    margin: 0  0.5rem;
+    
+}
+.navbar .nav-link:hover { 
+    background-color: lightblue !important;
+    border-radius: 30px;
+}
+
+
+#jumboPort {
+
+  background-image: url("images/space2.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+    height: 25rem;
+    font-size: 3rem;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+
+}
+#jumboPort p:last-of-type {
+    font-size: 1.2rem;
+}
+
+.portofolio div
+{   
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+}
+.portofolio {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+    color: rgb(6, 37, 37);
+    font-weight: bold; 
+}
+.portofolio p{
+    margin-bottom: 0;
+}
+
+
+hr {
+    width: 300px;
+    margin-top: 0;
+    margin-left: auto;
+    margin-right: auto;
+    height: 2px;
+    background-color:rgb(14, 6, 37);
+    }
+
+.footer {
+    background-color: darkslategrey;
+    height: 40%;
+    margin-top: 10%;
+    color: rgb(44, 119, 119); 
+ 
+}  
+.footer a{
+    color: rgb(209, 203, 148);
+    display: flex !important;
+    justify-content: center !important;
+}
+.footer p {
+    color: rgb(209, 203, 148);
+}
+
+.fas {
+    color:  rgb(209, 203, 148);
+}
+
+
+
+#jumpToCont{
+        padding-top: 70px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+#jumpToPorto{
+        padding-top: 70px;
+    }
+#jumpToAbout{
+        padding-top: 60px;
+        overflow-wrap: break-word;
+    }
+
+ #jumpToAbout div{
+        background-color: #7dc598;
+        padding: 2rem 0;
+        text-align: justify;  
+        border-radius: 25px;;     
+    }
+.btn-primary {
+    color: white !important;
+}
+
+.div1back {
+    background-image: url("images/gallery.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 320px;
+    height:200px;  
+    color: lightsteelblue;
+    font-weight: 200;
+    margin-bottom: 2rem;
+    border-radius: 12px;
+    
+}
+.div2back {
+    background-image: url("images/perf.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 400px;
+    height:260px;  
+    color: lightsteelblue;
+    font-weight: 200;
+    margin-bottom: 2rem;
+    border-radius: 12px;
+
+    
+}
+.div3back {
+    background-image: url("images/scr.png") ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 320px;
+    height:200px;  
+    color: lightsteelblue;
+    font-weight: 200;
+    margin-bottom: 2rem;
+    border-radius: 12px;  
+}
+.div4back {
+    background-color: darkgray;
+    background-size: cover;
+    width: 320px;
+    height:200px;  
+    color: lightsteelblue;
+    font-weight: 200;
+    margin-bottom: 2rem;
+    
+}
+.div5back {
+    background-color: darkgray;
+    background-size: cover;
+    width: 320px;
+    height:200px;  
+    color: lightsteelblue;
+    font-weight: 200;
+    margin-bottom: 2rem;
+    
+}
+.div6back {
+    background-color: darkgray;
+    background-size: cover;
+    width: 320px;
+    height:200px;  
+    color: lightsteelblue;
+    font-weight: 200;
+    margin-bottom: 2rem;
+    
+}
+
+.prova{
+    color:rgb(255, 255, 255);
+    text-decoration: underline;
+    filter: brightness(80%);
+
+}
+.navbar-mobclick{
+    background-color: rgb(32, 59, 59)!important;
+    transition: ease .5s !important;
+
+}
