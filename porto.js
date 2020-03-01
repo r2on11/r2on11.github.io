@@ -2,23 +2,24 @@ $('.nav-link').on('click',function() {
     $('.navbar-collapse').collapse('hide');
   });
 
-$(".div1back").on("mouseenter", function(){
-    $(".div1back").html('<span class="header">Click to redirect</span> ').addClass("prova")}); 
-$(".div1back").on("mouseleave", function(){ 
+
+  $(".div1back").on("mouseenter", function(){ 
+    $(".div1back").html('<span class="header"><i class="fas fa-plus-square fa-3x"></i></span> ').addClass("prova")});
+$(".div1back").on("mouseleave", function(){
     $(".div1back").text("").removeClass("prova")}); 
 
     $(document).ready(function() {
-        $(".div1back").click(function() {
+        $('.div1back').click(function() {
             var someId = $(this).attr("id");
-            window.open('imggallery/imgindex.html#'+someId);
-              });})
+            window.open('colorgame/index.html#'+someId);
+        });})
 
            
 
 
 
 $(".div2back").on("mouseenter", function(){ 
-    $(".div2back").html('<span class="header">Click to redirect</span> ').addClass("prova")});
+    $(".div2back").html('<span class="header"><i class="fas fa-plus-square fa-3x"></i></span> ').addClass("prova")});
 $(".div2back").on("mouseleave", function(){
     $(".div2back").text("").removeClass("prova")}); 
 
@@ -31,7 +32,7 @@ $(".div2back").on("mouseleave", function(){
 
 
 $(".div3back").on("mouseenter", function(){ 
-    $(".div3back").html('<span class="header">Click to redirect</span> ').addClass("prova")});
+    $(".div3back").html('<span class="header"><i class="fas fa-plus-square fa-3x"></i></span> ').addClass("prova")});
 $(".div3back").on("mouseleave", function(){
     $(".div3back").text("").removeClass("prova")}); 
 
@@ -40,22 +41,21 @@ $(".div3back").on("mouseleave", function(){
             var someId = $(this).attr("id");
             window.open('candy/index.html#'+someId);
               });})
+
+$(".div4back").on("mouseenter", function(){
+    $(".div4back").html('<span class="header"><i class="fas fa-plus-square fa-3x"></i></span> ').addClass("prova")}); 
+$(".div4back").on("mouseleave", function(){ 
+    $(".div4back").text("").removeClass("prova")}); 
+
+    $(document).ready(function() {
+        $(".div4back").click(function() {
+            var someId = $(this).attr("id");
+            window.open('imggallery/imgindex.html#'+someId);
+              });})
+
     
 
 
-
-    $(".div4back").on("mouseenter", function(){
-    $(this).css({
-        background: "black",
-        color: "white"
-    });
-    $(".div4back").text("U selected")});
-  
-$(".div4back").on("mouseleave", function(){
-    $(this).css({
-        background: "gray",
-        color: "white"
-    }); $(".div4back").text("Projekti 4");})
 
     $(".div5back").on("mouseenter", function(){
     $(this).css({
@@ -95,5 +95,3 @@ $(".div5back").on("mouseleave", function(){
         $(document).ready(function() {
             $('.navbar-toggler').click(function() {
                $("nav").toggleClass("navbar-mobclick",2000);});})
-        
-        

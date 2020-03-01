@@ -147,7 +147,7 @@ hr {
 }
 
 .div1back {
-    background-image: url("images/gallery.png");
+    background-image: url("images/color.png") ;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -186,14 +186,16 @@ hr {
     border-radius: 12px;  
 }
 .div4back {
-    background-color: darkgray;
+    background-image: url("images/gallery.png");
     background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
     width: 320px;
     height:200px;  
     color: lightsteelblue;
     font-weight: 200;
     margin-bottom: 2rem;
-    
+    border-radius: 12px;  
 }
 .div5back {
     background-color: darkgray;
@@ -228,8 +230,6 @@ hr {
 }
 .header {
     color: rgb(43, 85, 221);
-    text-decoration: underline;
-    background-color: rgb(255, 255, 255);
     border-radius: 20px;
     padding:0 1rem;
     font-size: 1.5rem;;
