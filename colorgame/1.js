@@ -100,6 +100,7 @@ easy.addEventListener ("click", function(){
 colors=generateRandomColors(numSquares);
 pickedColor = pickColor();
 colorDisplay.textContent = pickedColor;
+messageDisplay.textContent = "";
 for (var i=0; i <squares.length;i++){
     if (colors[i]){
     squares[i].style.backgroundColor = colors[i];
@@ -120,6 +121,8 @@ numSquares = 6;
 colors=generateRandomColors(numSquares);
 pickedColor = pickColor();
 colorDisplay.textContent = pickedColor;
+messageDisplay.textContent = "";
+
 
 //color display me match picked color
 for (var i=0; i <squares.length;i++){
@@ -137,6 +140,7 @@ resetButton.addEventListener ("click", function(){
     pickedColor = pickColor();
     //color display me match picked color
     colorDisplay.textContent = pickedColor;
+    messageDisplay.textContent = "";
     for (var i=0; i <squares.length;i++){
         squares[i].style.backgroundColor = colors[i];
         h1.style.backgroundColor = "steelblue";
