@@ -2,6 +2,7 @@ body
 {
     background-color: lightpink !important;
     font-family: "Nunito", sans-serif;
+    overflow-x: hidden;
 }
 #mainnav {
     font-size: 1.5rem;
@@ -47,3 +48,4 @@ color: #EA1C2C;
         font-weight: 200;
     }
 }
+
