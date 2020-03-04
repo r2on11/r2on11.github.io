@@ -147,7 +147,7 @@ hr {
 }
 
 .div1back {
-    background-image: url("images/color.png") ;
+    background-image: url("images/todo.png") ;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -160,12 +160,12 @@ hr {
     
 }
 .div2back {
-    background-image: url("images/perf.png");
+    background-image: url("images/color.png") ;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    width: 400px;
-    height:260px;  
+    width: 320px;
+    height:200px;  
     color: lightsteelblue;
     font-weight: 200;
     margin-bottom: 2rem;
@@ -174,7 +174,7 @@ hr {
     
 }
 .div3back {
-    background-image: url("images/scr.png") ;
+    background-image: url("images/perf.png");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -186,7 +186,7 @@ hr {
     border-radius: 12px;  
 }
 .div4back {
-    background-image: url("images/gallery.png");
+    background-image: url("images/scr.png") ;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -198,6 +198,7 @@ hr {
     border-radius: 12px;  
 }
 .div5back {
+    background-image: url("images/gallery.png");
     background-color: darkgray;
     background-size: cover;
     width: 320px;
