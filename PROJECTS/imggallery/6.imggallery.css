@@ -1,5 +1,8 @@
 body {
-	padding-top: 70px;
+
+}
+.navbar{
+	margin-bottom: 0 !important;
 }
 
 .fas {
@@ -19,7 +22,7 @@ a {
 
 }
 .testi {
-background-image: url(https://whoisstevehawk.com/wp-content/uploads/2013/05/blue-background-960x200.jpg);
+	background-image: url(https://whoisstevehawk.com/wp-content/uploads/2013/05/blue-background-960x200.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
 	margin: 0;
