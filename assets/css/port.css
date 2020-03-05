@@ -70,10 +70,10 @@ html {
     font-size: 1.2rem;
 }
 .divback
-{   display: flex; 
+{   
+    display: flex; 
     justify-content: center;
     margin-top: 1rem;
-    display: flex;
     justify-content: center;
     align-items: center;
     margin-bottom: 2rem;
@@ -170,7 +170,6 @@ hr {
 .header {
     color: rgb(43, 85, 221);
     text-decoration: underline;
-    background-color: rgb(255, 255, 255);
     border-radius: 20px;
     padding:0 1rem;
     font-size: 1.5rem;
