@@ -18,3 +18,14 @@ a {
 	background: #2c3e50;
 
 }
+.testi {
+background-image: url(https://whoisstevehawk.com/wp-content/uploads/2013/05/blue-background-960x200.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin: 0;
+}
+.jumbo {
+	margin: 100px auto;
+	padding-top: 20px ;
+	height: 100px;
+}

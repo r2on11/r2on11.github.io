@@ -1,6 +1,5 @@
 body {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-   position: relative;
    background-color: rgb(252, 244, 244);
 
   }
@@ -103,7 +102,10 @@ hr {
 
 .footer {
     background-color: darkslategrey;
-    height: 40%;
+    left: 0;
+    bottom: 0;
+     width: 100%;
+    height: 18rem;
     margin-top: 10%;
     color: rgb(44, 119, 119); 
  
@@ -208,16 +210,7 @@ hr {
     margin-bottom: 2rem;
     
 }
-.div6back {
-    background-color: darkgray;
-    background-size: cover;
-    width: 320px;
-    height:200px;  
-    color: lightsteelblue;
-    font-weight: 200;
-    margin-bottom: 2rem;
-    
-}
+
 
 .prova{
 
