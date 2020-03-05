@@ -7,10 +7,6 @@ html {
     scroll-behavior: smooth;
 
   }
-.row{
-    margin-left: 0;
-    margin-right: 0;
-}
 
 .navbar {
     background: transparent;
@@ -66,17 +62,22 @@ html {
     
 
 }
+.row{
+    margin-left: 0;
+    margin-right: 0;
+}
 #jumboPort p:last-of-type {
     font-size: 1.2rem;
 }
-
-.portofolio div
-{   
+.divback
+{   display: flex; 
+    justify-content: center;
     margin-top: 1rem;
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 2rem;
+    margin-bottom: 2rem;
+
 }
 .portofolio {
     display: flex;
@@ -89,6 +90,14 @@ html {
 .portofolio p{
     margin-bottom: 0;
 }
+
+img {
+    width: 320px;
+    height:200px;  
+    border-radius: 12px; 
+
+}
+
 
 
 hr {
@@ -148,71 +157,6 @@ hr {
     color: white !important;
 }
 
-.div1back {
-    background-image: url("images/todo.png") ;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    width: 320px;
-    height:200px;  
-    color: lightsteelblue;
-    font-weight: 200;
-    margin-bottom: 2rem;
-    border-radius: 12px;
-    
-}
-.div2back {
-    background-image: url("images/color.png") ;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    width: 320px;
-    height:200px;  
-    color: lightsteelblue;
-    font-weight: 200;
-    margin-bottom: 2rem;
-    border-radius: 12px;
-
-    
-}
-.div3back {
-    background-image: url("images/perf.png");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    width: 320px;
-    height:200px;  
-    color: lightsteelblue;
-    font-weight: 200;
-    margin-bottom: 2rem;
-    border-radius: 12px;  
-}
-.div4back {
-    background-image: url("images/scr.png") ;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    width: 320px;
-    height:200px;  
-    color: lightsteelblue;
-    font-weight: 200;
-    margin-bottom: 2rem;
-    border-radius: 12px;  
-}
-.div5back {
-    background-image: url("images/gallery.png");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    width: 320px;
-    height:200px;  
-    color: lightsteelblue;
-    font-weight: 200;
-    margin-bottom: 2rem;
-    border-radius: 12px
-}
-
-
 .prova{
 
     filter: brightness(90%);
@@ -225,7 +169,14 @@ hr {
 }
 .header {
     color: rgb(43, 85, 221);
+    text-decoration: underline;
+    background-color: rgb(255, 255, 255);
     border-radius: 20px;
     padding:0 1rem;
-    font-size: 1.5rem;;
+    font-size: 1.5rem;
+   
 }
+.text-block {
+    position: absolute;
+   
+  }
