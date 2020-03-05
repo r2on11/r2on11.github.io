@@ -68,8 +68,8 @@ input:focus {
 
 }
 #container{
-    width: 60%;
-    margin: 100px auto;
+    width: 500px;
+    margin: 10rem auto;
     background-color: #f7f7f7;
     box-shadow: 0 0 3px rgba(0,0,0,0.1);
  }
@@ -81,4 +81,9 @@ input:focus {
 .fa-plus{
     float: right;
 }
-
+@media only screen and (max-width: 600px) {
+    #container{
+        margin-top: 5rem;
+        width: 90%;
+    }
+  }
