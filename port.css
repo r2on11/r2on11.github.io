@@ -201,14 +201,15 @@ hr {
 }
 .div5back {
     background-image: url("images/gallery.png");
-    background-color: darkgray;
     background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
     width: 320px;
     height:200px;  
     color: lightsteelblue;
     font-weight: 200;
     margin-bottom: 2rem;
-    
+    border-radius: 12px
 }
 
 
