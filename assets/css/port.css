@@ -1,6 +1,8 @@
 body {
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-   background-color: rgb(252, 244, 244);
+    font-family: 'Playfair Display', serif; 
+    font-family: 'Montserrat', sans-serif;
+
+    background-color: rgb(252, 244, 244);
 
   }
 html {
@@ -49,18 +51,17 @@ html {
 
 
 #jumboPort {
-
-  background-image: url("../../images/space2.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-    height: 25rem;
-    font-size: 3rem;
+    background: #030003;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #0b8793, #030003);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #1a585e, #030003); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(to bottom, #1a585e, #030003); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */    
+    height: 100%;
+    width: 100%;;
+    font-size: 6rem;
     font-weight: bold;
-    color: rgb(255, 255, 255);
-    padding-top: 6rem;
-    padding-bottom: 6rem;
-    
-
+    color: rgb(216, 216, 216);
+    justify-content: center;
+    align-items: center;
 }
 .row{
     margin-left: 0;
@@ -68,6 +69,8 @@ html {
 }
 #jumboPort p:last-of-type {
     font-size: 1.2rem;
+    position: absolute;
+    bottom:5rem;
 }
 .divback
 {   
@@ -77,7 +80,6 @@ html {
     justify-content: center;
     align-items: center;
     margin-bottom: 2rem;
-
 }
 .portofolio {
     display: flex;
@@ -168,14 +170,66 @@ hr {
 
 }
 .header {
-    color: rgb(43, 85, 221);
-    text-decoration: underline;
-    border-radius: 20px;
-    padding:0 1rem;
+    color: rgb(255, 255, 255);
     font-size: 1.5rem;
+    justify-content: end;
+    align-items: end;
    
 }
-.text-block {
+div.text-block {
     position: absolute;
-   
+    justify-content: end;
+    padding-top: 150;
+    padding-left: 250px;
+    display: none;
+}
+
+.divback
+{   
+    display: flex; 
+    justify-content: center;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+
+.divback:hover img,
+.divback:focus img {
+      transform: scale(1.02);
+      transition: all .2s;
+      filter: brightness(80%);
+  }
+.divback:hover .text-block {
+     display: block;
+}
+
+.divback .text-block {
+      align-items: flex-end;
+      justify-self: start;
+}
+  
+
+
+
+
+
+  @media only screen and (max-width: 600px) {
+    #jumboPort {
+
+        background: #030003;  /* fallback for old browsers */
+        background: -webkit-linear-gradient(to bottom, #1a585e, #030003);  /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to bottom, #1a585e, #030003); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        background: linear-gradient(to bottom, #1a585e, #030003); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */    
+        height: 100%;
+        width: 100%;;
+        font-size: 3rem;
+        font-weight: bold;
+        color: rgb(216, 216, 216);
+        justify-content: center;
+        align-items: center;
+    }
+    #jumboPort p:last-of-type {
+        font-size: 1rem;
+        position: absolute;
+        bottom:5rem;
+    }
   }
