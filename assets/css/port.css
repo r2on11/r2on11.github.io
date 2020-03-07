@@ -64,11 +64,18 @@ html {
     margin-left: 0;
     margin-right: 0;
 }
+
+#jumboPort p:first-of-type{
+ 
+    animation: fadeInAnimation ease 2s ;
+    animation-iteration-count: 1; 
+    animation-fill-mode: forwards; 
+}
 #jumboPort p:last-of-type {
     font-size: 1.2rem;
     position: absolute;
     bottom:5rem;  
-    animation: fadeInAnimation ease 2s ;
+    animation: fadeInAnimation ease 3s ;
     animation-iteration-count: 1; 
     animation-fill-mode: forwards; 
 }
@@ -244,3 +251,4 @@ div.text-block {
     animation-fill-mode: forwards; 
     }
   }
+
