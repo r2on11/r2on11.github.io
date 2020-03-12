@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0 user-scalable=no">    
+    <title>Player</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <script src="https://kit.fontawesome.com/a55e792565.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="assets/css/mus.css">
+</head>
+<body>  
+        
+        <div class="everything">
+            <h1>Music Player</h1>
+        <div class="music-container">
+        <div class="musicinfo">
+            <h3 id="titull"></h3> 
+            <div class="progressbcont">
+                <div class="progress">
+
+                </div>
+            </div>
+        </div>
+
+        <audio src="music/PianoMan.mp3" id="audio"></audio>
+        <div class="image">
+            <img src="img/Layla.jpg" alt="music-cover" id="cover" />
+          </div>
+        <div class="navigation">
+            <button  id="previous" class="actionbtn">
+               <i class="fas fa-backward"></i>
+            </button>
+            <button  id="play" class="actionbtn actionbtnlarge">
+                <i class="fas fa-play"></i>
+             </button>
+             <button  id="next" class="actionbtn">
+                <i class="fas fa-forward"></i>
+             </button>
+        </div>
+         
+    </div>
+    </div>
+    <script src="assets/javascript/script.js "></script>
+</body>
+</html>
