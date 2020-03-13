@@ -9,7 +9,7 @@ var progress = document.querySelector ('.progress');
 var progressbcont = document.querySelector ('.progressbcont');
 
 var songs = ['DreamOn', 'PianoMan', 'Layla', 'InTheAirTonight', 'HighHopes'];
-
+var listbtn = document.getElementById ('listabtn');
 
 let songIndex = 2;
 
@@ -66,7 +66,9 @@ function setProgress(e){
 
     audio.currentTime = (clickX / width) * duration;
 }
- 
+ function showlist(){
+    musicCont.classList.toggle('show');
+ }
 
 
 //eventlistrener
@@ -93,4 +95,27 @@ audio.addEventListener('timeupdate',updateProgress);
 //songend
 audio.addEventListener('ended', nextSong)
 
+listbtn.addEventListener ('click',showlist)
 
+
+
+
+
+function ndrroSong(cila) {
+  title.innerText = cila;
+  audio.src = `music/${cila}.mp3`;
+  cover.src = `img/${cila}.jpg`;
+  
+}
+
+var list = document.querySelector('ul');
+
+list.addEventListener('click', function(e) {
+  if (e.target.tagName === 'LI') {
+    // e.target.style.color = "orange";
+    // e.target.classList.toggle('checked');
+    var cila = (e.target.textContent);
+    ndrroSong(cila);
+    playSong();
+  }
+}, false);

@@ -10,24 +10,24 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: start;
     height: 100vh;
     margin: 0;
 }
 h1 {
+    margin-top: 70px;
     color: rgb(76, 3, 192);
-    margin-bottom: 50px;
+    margin-bottom: 30px;
     font-size: 3rem;
 }
 .music-container {
-    width: 30%;
+    width: 28rem;
     background-color: rgb(255, 255, 255);
     border-radius: 16px;
-    box-shadow: 0 20px 20px 0 rgba(184, 102, 102, 0.582);
     display: flex;
     padding: 20px 30px;
     position: relative;
-    margin: 100px 0;
+    margin: 80px 0 0 0;
     z-index: 10;
 }
 .image {
@@ -105,14 +105,47 @@ h1 {
     transition: transform 0.3s ease-in, opacity 0.3s ease-in;
     z-index: 0;
 }
-.musicinfo h3 {
-    margin: 0;
-}
-
 .music-container.play .musicinfo {
     opacity: 1;
     transform:translateY(-100%);
 }
+.musicinfo h3 {
+    margin: 0;
+}
+
+.musiclist {
+    color: rgb(255, 255, 255);
+    background-color: rgba(122, 122, 122, 0.521);
+    border-radius: 0 0 12px 12px;
+    position: absolute;
+    bottom: 0;
+    width: calc( 100% - 50px);
+    left: 20px;
+    padding: 10px 10px 10px 10px;
+    opacity: 0;
+    transform: translateY(0%);
+    transition: transform 0.3s ease-in, opacity 0.3s ease-in;
+    z-index: 0;
+}
+.music-container.show .musiclist {
+    opacity: 1;
+    transform:translateY(100%);
+}
+.music-container #listabtn {
+    color: black;
+}
+.navigation #listabtn {
+    padding: 0;
+    padding-left: 20px;
+    border: none;
+    background-color: white;
+    margin-top: 0px;
+}
+.navigation #listabtn:focus {
+    outline: none;
+}
+
+
 .progressbcont {
     background-color: white;
     border-radius: 5px;
@@ -132,23 +165,43 @@ h1 {
 
 
 @media screen and (max-width: 600px){
+    .everything {
+    display: flex;
+    justify-content: start;   }
     .music-container {
-        width: 90%;
+        width: 95%;
         background-color: rgb(255, 255, 255);
         border-radius: 16px;
         box-shadow: 0 20px 20px 0 rgba(184, 102, 102, 0.582);
         display: flex;
     
-}h3{
+}
+h3{
     font-size: 0.9rem;
 }
 .navigation{
     padding-left: 2rem;
+    
 }
+
 .actionbtn{
     margin: 10px;
     padding: 0;
 }}
 
 
+
+
+.checked {
+    color: orangered;
+}
+
+li {
+    cursor: pointer;
+    list-style: none;
+    border-bottom: 1px solid rgb(233, 226, 134);
+}
+li:hover {
+    color: rgb(80, 64, 233);
+}
  
