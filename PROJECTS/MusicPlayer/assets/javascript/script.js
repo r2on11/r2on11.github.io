@@ -8,7 +8,8 @@ var audio = document.querySelector ('#audio');
 var progress = document.querySelector ('.progress');
 var progressbcont = document.querySelector ('.progressbcont');
 
-var songs = ['DreamOn', 'PianoMan', 'Layla', 'InTheAirTonight', 'HighHopes'];
+var songs = ['Aerosmith - Dream On', 'Billy Joel - Piano Man', 'Eric Clapton - Layla', 
+'Phil Collins - In The Air Tonight', 'Pink Floyd - High Hopes', 'U2 - Ordinary Love'];
 var listbtn = document.getElementById ('listabtn');
 
 let songIndex = 2;
