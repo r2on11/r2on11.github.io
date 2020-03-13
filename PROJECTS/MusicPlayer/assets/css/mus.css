@@ -177,21 +177,39 @@ h1 {
 h3{
     font-size: 0.9rem;
 }
-.navigation{
+.navigation.row {margin-left: 10%;
+
 }
-.navigation #listabtn {
-    margin-right: 5px;
-    margin: 0;
+.navigation.row #listabtn {
+    margin-left:20px;
 }
 
 .actionbtn{
-    margin: 10px;
+    margin: 0;
     padding: 0;
+}
+.actionbtn.actionbtnlarge{
+    margin: 10px 20px;
 }}
 .row {
     margin: 0;
 }
 
+@media screen and (max-width: 320px){
+
+    .navigation.row {margin-left: 0;
+
+    }}
+    .actionbtn{
+        margin: 0;
+        padding: 0;
+    }
+    .actionbtn.actionbtnlarge{
+        margin: 8px 5px;
+    }
+    .row {
+        margin: 0;
+    }
 
 
 
