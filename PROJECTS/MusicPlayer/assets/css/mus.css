@@ -121,12 +121,17 @@ h1 {
     left: 20px;
     padding: 10px 10px 10px 10px;
     opacity: 0;
+    pointer-events: none;
+    cursor: default;
     transform: translateY(0%);
-    transition: transform 0.3s ease-in, opacity 0.3s ease-in;
+    transition: transform 0.3s ease-in, opacity 0.3s ease-in ;
     z-index: 0;
 }
 .music-container.show .musiclist {
     opacity: 1;
+    pointer-events: all;
+    cursor: pointer;
+    display: block;
     transform:translateY(100%);
 }
 .music-container #listabtn {
