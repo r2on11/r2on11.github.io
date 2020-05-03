@@ -2,9 +2,10 @@
 
 body {
     box-sizing: border-box;
-    background: #DC2424;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #4A569D, #DC2424);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #4A569D, #DC2424); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */        
+    background-color: #308695;
+    /* background: #DC2424;  /* fallback for old browsers */
+    /* background: -webkit-linear-gradient(to right, #4A569D, #DC2424);  /* Chrome 10-25, Safari 5.1-6 */
+    /* background: linear-gradient(to right, #4A569D, #DC2424); W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+         */ 
     display: flex;
     justify-content: center;
     align-items: center;
@@ -16,12 +17,11 @@ body {
     width: 30rem;
     height: 30rem;
     border-radius: 50%;
-    background-color: rgba(255, 255, 255, 1);
+    background-color: rgb(240, 233, 233);
     border: 15px solid black;
-    box-shadow: inset 0 0 40px rgba(138, 85, 85, 0.8),
-                     0 0 40px rgba(255, 255, 255, 0.8),
-                     0 0 50px rgba(25, 170, 5, 0.8),
-                     0 0 50px rgba(7, 109, 128, 0.9) ;
+    box-shadow: inset 0 0 20px rgba(138, 85, 85, 0.8),
+                     0 0 40px rgba(214, 224, 221, 0.8),
+                     0 0 50px rgba(200, 219, 223, 0.9) ;
     position: relative;
 }
 .clock .number {
