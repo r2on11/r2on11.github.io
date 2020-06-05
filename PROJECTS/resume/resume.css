@@ -1,0 +1,74 @@
+body {
+    font-family: 'Playfair Display', serif; 
+    font-family: 'Montserrat', sans-serif;
+}
+.container div{
+    margin: 0.7rem auto;
+}
+.nr1 div{
+    margin-bottom: 1rem;
+    margin-top: 2rem;
+    padding-top: 70px;
+    color: rgb(138, 135, 135);
+}
+.nr2  {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.col-md-4 {
+    font-weight: 500;
+    font-size: 1.2rem;
+}
+p {
+    text-align: justify;
+    margin-bottom: 0.2rem;
+}
+.under {
+    font-size: 1rem;
+}
+
+
+.navbar {
+    background: transparent;
+    background-color: transparent;
+    color: white ;
+    font-size: 1.4rem !important;
+    font-weight: bolder;
+}
+.navscr
+{
+    background-color: rgb(32, 59, 59);
+    color: white ;
+    font-size: 1.4rem !important;
+    font-weight: bolder;
+
+}
+.navbar-brand  {
+    color: white;
+    padding: 0.5rem 1rem;
+}
+.navbar  .navbar-brand:hover { 
+
+    background-color: rgb(69, 108, 121) !important;
+    border-radius: 30px;
+    color:white !important;
+    padding: 0.5rem 1rem;
+
+}
+.nav-link {
+    color:white !important;
+    margin: 0  0.5rem;
+    
+}
+.navbar .nav-link:hover { 
+    background-color: rgb(69, 108, 121) !important;
+    border-radius: 30px;
+}
+
+.navbar-mobclick{
+    background-color: rgb(32, 59, 59)!important;
+    transition: ease .5s !important;
+
+}
