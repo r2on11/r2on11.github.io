@@ -1,0 +1,316 @@
+html {
+    font-size: 62.5% ;
+}
+body {
+    background-image: url("../../assets/images/bg.jpg");
+    font-family: 'Poppins', sans-serif !important;
+}
+.navbar-brand {
+    color: #525ffb !important;
+    font-size: 4rem;
+    font-weight: bolder;
+}
+h1 {
+    font-size: 4rem;
+    font-weight: bolder;
+}
+small{
+    font-size: 1.3rem;
+}
+button {
+    border-radius: 25px !important;
+    height: 4.4rem !important;
+    width: 15rem;
+    font-size: 1.5rem !important;
+    font-weight: 700 !important;
+}
+button:hover {
+    background-color: white !important;
+    color: #525ffb !important;
+}
+
+.imagebig {
+    width: 41rem;
+    height: 36rem !important;
+}
+.card {
+    border-radius: 1rem;
+}
+.card svg {
+    height: 220px;
+    width: 269;
+    margin: 10px;
+}
+.butoninav{
+    width: 15rem; 
+    color: #525FFB; 
+}
+.butoninav:hover{ 
+    background-color: #525FFB !important; 
+    color: white !important;
+}
+.firstdiv {
+    margin: 0 0 12rem !important;
+}
+.firstdiv button,
+.lastdiv button {
+    background-color: #525FFB;
+}
+.seconddiv {
+    margin: 12rem 0 !important;  
+}
+.seconddiv p{
+    font-size: 1.3rem;
+}
+.seconddiv h4{
+    font-size: 2rem;
+}
+.thirddiv {
+    margin: 12rem 0 !important;
+}
+.thirddiv button {
+    
+    background-color: #525FFB;
+}
+.firstdivsearch {
+    width: 34rem !important;
+    height: 4.4rem;
+    font-size: 1.5rem;
+    padding: 0 1.5rem;
+    border-radius: 25px;
+}
+small {
+    color: #B1AAAA;
+}
+#cardnr1 {
+    background-color: #525FFB;
+    color: white;
+    width: 30rem;
+}
+#cardnr2 {
+    margin-top: 10vh;
+    background-color: #E9F0FF;
+    width: 30rem;
+}
+#cardnr3 {
+    margin-top: 5vh;
+    background-color: #FFE7AA;
+    width: 30rem;
+}
+.fourthdiv {
+    margin: 12rem 0 !important;
+}
+.fifthdiv {
+    position: relative;
+    margin: 6rem 0!important;
+    min-height: 40rem;
+    width: 100%;
+  }
+.fifthdiv p{
+    color: #525FFB;
+    font-weight: 650;
+    margin: 10rem 0;
+}
+.minifoto1 img{
+    position: absolute;
+    width: 6rem;
+    height: 6rem;
+    border-radius: 50%;
+    margin-left: -20rem;
+}
+.minifoto2 img{
+    position: absolute;
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+    margin: 12rem 0 0 4rem;
+}
+.minifoto3 img{
+    position: absolute;
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    margin: 22rem 0rem 0 -15rem;
+
+}
+.minifoto4 img{
+    position: absolute;
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+    margin: 2rem 0rem 0 70rem;
+}
+.minifoto5 img{
+    position: absolute;
+    width: 3.5rem;
+    height: 3.5rem;
+    border-radius: 50%;
+    margin: 10rem 0rem 0 50rem;
+
+}
+.minifoto6 img{
+    position: absolute;
+    width: 6.5rem;
+    height: 6.5rem;
+    border-radius: 50%;
+    margin: 20rem 0rem 0 60rem;
+}
+.sixthdiv {
+    margin: 6rem 0!important;
+}
+
+.rotate {
+    animation-name: rotate; 
+    animation-duration: 4s; 
+    animation-iteration-count: infinite;
+    transition-timing-function: linear;
+}
+@keyframes rotate {
+    0% { -webkit-transform: rotate(0deg); }
+    50% { -webkit-transform: rotate(10deg); }
+    100% { -webkit-transform: rotate(0deg); }
+}
+  
+ 
+
+.testing{
+    animation: bounce2 0.5s ease-in;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards; 
+    opacity: 0.5;  
+}
+@keyframes bounce2{
+    50% {
+        transform: translateY(4rem);
+    }
+    100% {
+        transform: translateY(4rem);
+
+    }
+}
+
+.firstdiv div:first-child,
+.seconddiv {
+    animation: fadeInAnimation ease 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+.animationtext{
+    height: 10rem;
+}
+.textdiv {
+    -webkit-animation: adjustText 1s infinite alternate;
+    -moz-animation:    adjustText 1s infinite alternate;
+    -o-animation:      adjustText 1s infinite alternate;
+    animation:		   adjustText 1s infinite alternate;
+}
+
+@keyframes adjustText {
+from {
+  font-size: 7rem;
+
+}
+
+to {
+  font-size: 7.3rem;
+}
+}
+@media screen and (max-width: 1024px) {
+    html {
+        font-size: 50% !important;
+    }  
+}
+@media screen and (max-width: 992px) {
+    .firstdivsearch {
+        width: 22rem !important;
+    }
+}
+@media only screen and (max-width: 600px) {
+    html {
+        font-size: 50%;
+    }
+    .firstdivsearch {
+        width: 25rem !important;
+    }
+    .firstdiv button,
+    .lastdiv button {
+        width: 10rem;
+    }
+    .navbar-toggler {
+        width: 5rem !important;
+        height: 4rem !important;
+        border-radius: 5px !important;
+    }
+    .paraimagebig {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .minifoto1 img{
+        margin: 1rem 0rem 0 3rem;
+    }
+    .minifoto2 img{
+        margin: 15rem 0rem 0 2rem;
+    }
+    .minifoto3 img{
+        margin: 25rem 0rem 0 1rem;
+    }
+    .minifoto4 img{
+        margin: 2rem 0rem 0 37rem;
+    }
+    .minifoto5 img{
+        margin: 15rem 0rem 0 39rem;
+    }
+    .minifoto6 img{
+        margin: 24rem 0rem 0 35rem;
+    }
+    #cardnr2 {
+        margin-top: 2rem;
+       
+    }
+    #cardnr3 {
+            margin-top: 2rem;
+    }
+  }
+  .hideMe {
+      opacity: 0.1;
+  }
+
+
+/* .testi {
+    position: relative;
+    animation-name: example;
+    animation: example 2s infinite;
+  }
+  
+  @keyframes example {
+    0%   { left:0px; top:0px;}
+    25%  { left:1rem; top:0px;}
+    50%  {top:1rem; ;}
+    75%  { left:0px; top:1rem;}
+    100% { left:0px; top:0px;}
+  }
+  .testi2 {
+    position: relative;
+    animation-name: example2;
+    animation: example2 2s infinite;
+  }
+  
+  @keyframes example2 {
+    0%   { left:0px; top:0px;}
+    25%  { right:1rem; top:0px;}
+    50%  {top:2rem; ;}
+    75%  { left:0px; top:2rem;}
+    100% { left:0px; top:0px;}
+    from {width:2rem}
+    to {width: 4rem;}
+  } */
